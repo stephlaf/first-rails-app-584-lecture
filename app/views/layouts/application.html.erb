@@ -10,6 +10,12 @@
   </head>
 
   <body>
+    <div style="background: lightblue; padding: 16px">
+      This is a navbar
+      <%= link_to 'Back Home', root_path %>
+      <%= link_to 'Contact', contact_path %>
+      <%= link_to 'About', about_us_path %>
+    </div>
     <%= yield %>
   </body>
 </html>
